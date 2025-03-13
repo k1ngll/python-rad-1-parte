@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-from PIL import Image, ImageTk  # Para carregar imagens
+from PIL import Image, ImageTk  
 import os
 class Carro:
     def __init__(self, modelo, preco: float, km_rodados: int, imagem: str):
